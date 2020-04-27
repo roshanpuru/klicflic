@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+title: Product
 section_id: about
 skills:
   - title: Web Design
@@ -19,12 +19,19 @@ testimonials:
   - quote: Reprehenderit eos et non et ut eum reprehenderit quis sequi quia vel repellendus id. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est.
     author: David White, Designer at Huglab
 ---
+<div class='two spacing'></div>
 
-<div class='full parallax' style='background-image: url(images/@stock/about-us.jpg); color: #fff;'>
-  <div class='row'>
-    <div class='twelve columns'>
-      {% include section-header.html title="About us" color="#fff" tagline="Know something about our team" class="big" %}
-    </div>
+<div class='full parallax' style='background-image: url(images/home.png); color: #fff;'>
+  <div class='row' style="margin-left: 20%;">
+    <video width="800" height="400"  autoplay="autoplay" controls="controls">
+      <source src="images/klicflic.mp4" type="video/mp4">
+      <!-- <source src="movie.ogg" type="video/ogg"> -->
+    <!-- Your browser does not support the video tag. -->
+    </video>
+
+    <!-- <div class='twelve columns'>
+      {% include section-header.html title="Product" color="#fff" tagline="What this app is all about" class="big" %}
+    </div> -->
   </div>
   <div class='four spacing'></div>
 </div>
@@ -32,11 +39,15 @@ testimonials:
 <div class='full'>
   <div class='row'>
     <div class='medium-6 columns'>
-      <h3>Our history</h3>
-      <p>Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.</p>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.</p>
+      <h3><B>Features:</B></h3>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- See Friends Recommendations and other Feeds</p>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Search Content</p>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- See Analytics</p>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Publish Review and blogs</p>
+      <P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- AI and ML based Recommendations</P>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Create distinct clubs and group and more ....</p>
     </div>
-    <div class='medium-6 columns'>
+    <!-- <div class='medium-6 columns'>
       <h3>Our skills</h3>
       <div class='mod modBarGraph'>
         <ul class='bars'>
@@ -51,11 +62,11 @@ testimonials:
           {% endfor %}
         </ul>
       </div>
-    </div>
+    </div> -->
   </div>
 </div>
 
-
+<!-- 
 <div class='full'>
   <div class='row'>
     {% for member in site.data.members %}
@@ -124,4 +135,4 @@ testimonials:
   </div>
 </div>
 
-{% include our-customers.html %}
+{% include our-customers.html %} -->
